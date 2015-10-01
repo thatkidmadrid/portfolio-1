@@ -8,7 +8,7 @@ I’m constantly working towards the next level, but I’ve made a habit of goin
 
 I like finding new hats to wear more than anything (seriously, you should see [my collection!](http://charlie-quinn.github.io/portfolio/hat-collection.html)). Sometimes I’m a craftsman, or an accountant, or even a pastry chef.
 
-The design process can get a little crazy ♥.
+The design process can get a little crazy.
 I love what I do for a living.
 
 - [hey@charliequinn.ca](mailto:hey@charliequinn.ca)
