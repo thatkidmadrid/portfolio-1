@@ -1,6 +1,6 @@
 # Charlie Quinn
 
-[](http://charliequinn.ca/)
+[The Portfolio of Charlie Quinn](http://charliequinn.ca/)
 
 Live your life like a video game.
 I believe that everything you design, love, and work for, will unlock an awesome achievement.
