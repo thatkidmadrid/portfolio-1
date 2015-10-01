@@ -3,7 +3,6 @@
 [](http://charliequinn.ca/)
 
 Live your life like a video game.
-
 I believe that everything you design, love, and work for, will unlock an awesome achievement.
 I’m constantly working towards the next level, but I’ve made a habit of going back to upgrade my skills and search for hidden treasures.
 
