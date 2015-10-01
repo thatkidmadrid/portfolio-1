@@ -71,12 +71,6 @@ h1 {
   text-align: ;
 }
 
-.bio {
-  font-size: .9em;
-  line-height: 1.45em;
-  margin-top: -1em;
-}
-
 .social-media-top {
   position: absolute;
   bottom: 0;
@@ -134,6 +128,49 @@ h1 {
   background-image: url("../images/instagram-teal.svg");
 }
 
+.scroll-down {
+  position: absolute;
+  background-image: url("../images/down-arrow-01.svg");
+  background-repeat: no-repeat;
+  transition:all .2s ease-in-out;
+  bottom: 1em;
+  left: 42.5%;
+  width: 3em;
+  height: 3em;
+  cursor: pointer;
+  display: block;
+  -webkit-animation: scroll-down-moving .5s ease-in-out infinite alternate;
+  animation: scroll-down-moving .5s ease-in-out infinite alternate;
+}
+
+.scroll-down:hover {
+  background-image: url("../images/down-arrow-02.svg");
+}
+
+@-webkit-keyframes scroll-down-moving {
+
+  0% {
+    -webkit-transform: translateY(0px);
+  }
+
+  100% {
+    -webkit-transform: translateY(10px);
+  }
+
+}
+
+@keyframes scroll-down-moving {
+
+  0% {
+    transform: translateY(0px));
+  }
+
+  100% {
+    transform: translateY(10px);
+  }
+
+}
+
 .portfolio {
   height: 25em;
 }
@@ -158,57 +195,6 @@ h1 {
     bottom: 0;
     margin: 0 auto;
     right: .5em;
-  }
-
-}
-
-/*----------TABLET-PORTRAIT----------*/
-@media only screen and (min-width: 48em) {
-
-  .meet-charlie {
-    top: 23em;
-    left: 18em;
-    right: 5em;
-  }
-
-  h1 {
-    font-size: 3em;
-  }
-
-  .bio {
-    font-size: 1.25em;
-  }
-
-}
-
-/*----------TABLET-LANDSCAPE----------*/
-@media only screen and (min-width: 64em) {
-
-  .meet-charlie {
-    top: 29em;
-    left: 22.5em;
-  }
-
-  .br-two {
-    display: block;
-  }
-
-}
-
-/*-----------DESKTOP----------*/
-@media only screen and (min-width: 75em) {
-
-  header {
-    background-image: url("../images/charlie.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100vh;
-  }
-
-  .meet-charlie {
-    top: 36%;
-    left: 63%;
   }
 
 }

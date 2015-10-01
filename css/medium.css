@@ -1,0 +1,32 @@
+/*----------TABLET-PORTRAIT----------*/
+@media only screen and (min-width: 48em) {
+
+  .meet-charlie {
+    top: 23em;
+    left: 18em;
+    right: 5em;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  .bio {
+    font-size: 1.25em;
+  }
+
+}
+
+/*----------TABLET-LANDSCAPE----------*/
+@media only screen and (min-width: 64em) {
+
+  .meet-charlie {
+    top: 29em;
+    left: 22.5em;
+  }
+
+  .br-two {
+    display: block;
+  }
+
+}
