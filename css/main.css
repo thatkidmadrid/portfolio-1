@@ -1,0 +1,210 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  overflow-x: hidden;
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+[hidden] {
+  display: none;
+}
+
+body {
+  font-family: "Libre Baskerville", serif;
+  background-color: #fff;
+  color: #000;
+  margin: 0;
+}
+
+.skip-links {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.skip-links a {
+  position: absolute;
+  top: -3em;
+  color: #fff;
+  background-color: #13CFB0;
+  opacity: 0.8;
+  padding: .5em;
+}
+
+.skip-links a:focus {
+  top: 0;
+}
+
+header {
+  background-image: url("../images/charlie-half.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+.meet-charlie {
+  position: absolute;
+  left: 9em;
+  top: 35%;
+
+}
+
+h1 {
+  color: #000;
+  width: 4.75em;
+  font-weight: 100;
+  color: #000;
+  font-size: 2.25em;
+  line-height: 1em;
+}
+
+.bio {
+  font-size: .9em;
+  line-height: 1.45em;
+  margin-top: -1em;
+}
+
+.social-media {
+  position: absolute;
+  bottom: 0;
+  margin: 0 auto;
+}
+
+.social-media a {
+  opacity: 0.7;
+  display: inline-block;
+  padding: .3em .3em .6em .3em;
+}
+
+.email {
+  width: 3em;
+  height: 2em;
+  background-image: url("../images/email-white.svg");
+  background-repeat: no-repeat;
+  margin-left: .25em;
+}
+
+.email:hover {
+  background-image: url("../images/email-teal.svg");
+}
+
+.linkedin {
+  width: 2.25em;
+  height: 2.25em;
+  background-image: url("../images/linkedin-white.svg");
+  background-repeat: no-repeat;
+}
+
+.linkedin:hover {
+  background-image: url("../images/linkedin-teal.svg");
+}
+
+.twitter {
+  width: 2.25em;
+  height: 2em;
+  background-image: url("../images/twitter-white.svg");
+  background-repeat: no-repeat;
+}
+
+.twitter:hover {
+  background-image: url("../images/twitter-teal.svg");
+}
+
+.instagram {
+  width: 2.25em;
+  height: 2em;
+  background-image: url("../images/instagram-white.svg");
+  background-repeat: no-repeat;
+}
+
+.instagram:hover {
+  background-image: url("../images/instagram-teal.svg");
+}
+
+/*----------MOBILE-LANDSCAPE----------*/
+@media only screen and (min-width: 30em) {
+
+  .meet-charlie {
+    left: 15em;
+  }
+
+  h1 {
+    width: 8em;
+  }
+
+  br {
+    display: none;
+  }
+
+  .social-media {
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+    right: .5em;
+  }
+
+}
+
+/*----------TABLET-PORTRAIT----------*/
+@media only screen and (min-width: 48em) {
+
+  .meet-charlie {
+    top: 23em;
+    left: 18em;
+    right: 5em;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  .bio {
+    font-size: 1.25em;
+  }
+
+}
+
+/*----------TABLET-LANDSCAPE----------*/
+@media only screen and (min-width: 64em) {
+
+  .meet-charlie {
+    top: 29em;
+    left: 22.5em;
+  }
+
+  .br-two {
+    display: block;
+  }
+
+}
+
+/*-----------DESKTOP----------*/
+@media only screen and (min-width: 75em) {
+
+  header {
+    background-image: url("../images/charlie.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .meet-charlie {
+    top: 36%;
+    left: 63%;
+  }
+
+}
