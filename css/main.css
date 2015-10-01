@@ -55,11 +55,32 @@ header {
   height: 100vh;
 }
 
+nav {
+  width: 100%;
+  padding-top: .5em;
+  text-align: center;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 0 .5em;
+/*  font-family: sans-serif;*/
+  font-weight: 700;
+}
+
 .meet-charlie {
   position: absolute;
   left: 9em;
   top: 35%;
-
 }
 
 h1 {
@@ -186,9 +207,9 @@ h1 {
     width: 8em;
   }
 
-  br {
+/*  br {
     display: none;
-  }
+  }*/
 
   .social-media-top {
     position: absolute;
