@@ -21,6 +21,10 @@ html {
   display: none;
 }
 
+img {
+  width: 100%;
+}
+
 body {
   font-family: "Libre Baskerville", serif;
   background-color: #fff;
@@ -58,7 +62,7 @@ header {
 nav {
   width: 100%;
   padding-top: .5em;
-  text-align: center;
+  text-align: right;
 }
 
 nav ul {
@@ -193,8 +197,59 @@ h1 {
 }
 
 .portfolio {
-  height: 25em;
+  margin: 1em;
+/*  background-color: yellow;*/
 }
+
+.item {
+  padding: .5em;
+  margin: 0;
+  transition: all .1s ease;
+  transition-property: transform;
+}
+
+.item:hover,
+.item:focus,
+.item:active {
+/*transform: scale(1.04);*/
+  cursor: pointer;
+/*background-color: #13CFB0;*/
+}
+
+.item img {
+  display: block;
+}
+
+.item h3,
+.item p {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*.baked-with-love {
+  overflow:hidden;
+  position:relative;
+}
+.baked-with-love iframe{
+  left:0;
+  top:0;
+  width:96.9%;
+  height: 99%;
+  position:absolute;
+  margin: 4px 16px 8px 8px;
+  padding-bottom: 16px;
+}*/
+
+
 
 /*----------MOBILE-LANDSCAPE----------*/
 @media only screen and (min-width: 30em) {
