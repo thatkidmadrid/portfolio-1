@@ -81,6 +81,8 @@ nav a {
   font-weight: 700;
 }
 
+/* **********BILLBOARD********** */
+
 .meet-charlie {
   position: absolute;
   left: 9em;
@@ -196,9 +198,45 @@ h1 {
 
 }
 
+/* **********ABOUT********** */
+
+.about {
+  height: 25%;
+  background-color: #13CFB0;
+  display: inline-block;
+  color: white;
+  font-size: 1em;
+  width: 100%;
+}
+
+.about p {
+  padding: 0 1.25em;
+}
+
+.about a {
+  text-decoration: none;
+}
+
+.about a:hover,
+.about a:focus,
+.about a:active,
+.about a:visited {
+  cursor: pointer;
+  color: white;
+}
+
+/* **********PORTFOLIO********** */
+
+hr {
+  height: 1px;
+  width: 100%;
+  background-color: #e2e2e2;
+  border: 0;
+  padding: 0;
+}
+
 .portfolio {
   margin: 1em;
-/*  background-color: yellow;*/
 }
 
 .item {
@@ -208,48 +246,22 @@ h1 {
   transition-property: transform;
 }
 
-.item:hover,
-.item:focus,
-.item:active {
-/*transform: scale(1.04);*/
-  cursor: pointer;
-/*background-color: #13CFB0;*/
-}
-
 .item img {
   display: block;
 }
 
+.item img:hover,
+.item img:focus,
+.item img:active {
+  cursor: pointer;
+}
+
 .item h3,
 .item p {
-  display: none;
+  padding: 0;
+ color: blue;
+ text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-/*.baked-with-love {
-  overflow:hidden;
-  position:relative;
-}
-.baked-with-love iframe{
-  left:0;
-  top:0;
-  width:96.9%;
-  height: 99%;
-  position:absolute;
-  margin: 4px 16px 8px 8px;
-  padding-bottom: 16px;
-}*/
-
-
 
 /*----------MOBILE-LANDSCAPE----------*/
 @media only screen and (min-width: 30em) {
@@ -261,10 +273,6 @@ h1 {
   h1 {
     width: 8em;
   }
-
-/*  br {
-    display: none;
-  }*/
 
   .social-media-top {
     position: absolute;
