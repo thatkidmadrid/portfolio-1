@@ -24,6 +24,26 @@
     display: none;
   }
 
+  .nav-links {
+  width: 50%;
+  text-align: right;
+  left: 50%;
+  font-size: 1.25em;
+  padding-top: .37em;
+}
+
+  .nav-links li:last-child {
+    margin-right: .25em;
+  }
+
+  .nav-background {
+/*    background-color: white;*/
+  }
+
+  nav a {
+    color: black;
+  }
+
 }
 
 /*----------TABLET-LANDSCAPE----------*/
