@@ -76,7 +76,8 @@ header {
   z-index: 100;
   font-family: 'Yantramanav', sans-serif;
   width: 100%;
-  padding-top: .5em;
+  padding-top: .4em;
+  font-size: 1.2em;
   display: block;
   text-align: center;
 }
@@ -271,11 +272,13 @@ hr {
   cursor: pointer;
 }
 
-.item h3,
+.item h3 {
+/*  font-family: 'Yantramanav', sans-serif;*/
+  margin: 1em 0 0.25em;
+}
+
 .item p {
-  padding: 0;
- color: blue;
- text-align: center;
+  margin: 0;
 }
 
 /*----------MOBILE-LANDSCAPE----------*/
