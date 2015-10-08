@@ -20,6 +20,11 @@
     display: none;
   }
 
+  .about hr,
+  .contact hr {
+    display: block;
+  }
+
   br {
     display: block;
   }
@@ -49,7 +54,11 @@
     color: black;
   }
 
-  .social-media-top {
+  .social-media-bottom {
+    margin: 0 calc((100% - 260.313px) / 2);
+  }
+
+ /* .social-media-top a {
     display: inline-block;
     position: fixed;
     top: 0;
@@ -61,7 +70,6 @@
     height: 2em;
     background-image: url("../images/email-white.svg");
     background-repeat: no-repeat;
-    margin-left: .25em;
   }
 
   .email:hover {
@@ -87,7 +95,7 @@
     height: 2em;
     background-image: url("../images/instagram-white.svg");
     background-repeat: no-repeat;
-  }
+  }*/
 
   .scroll-down {
     left: 46%;
@@ -98,11 +106,29 @@
   .about p {
     padding: 0 4em;
   }
+
+
+
+
+
+
 /*
-  .gem {
-    display: block;
-    height: 1.5em;
-  }*/
+
+.opened-description:target {
+  color: red;
+  height: 100vh;
+  background-color: green;
+}
+
+.text {
+  background-color: yellow;
+}
+*/
+
+
+
+
+
 
 }
 
@@ -124,34 +150,4 @@
     height: 4em;
   }
 
-
-  .social-media-top {
-  position: absolute;
-  bottom: 0;
-  margin: 0 auto;
 }
-
-.social-media-top a {
-  opacity: 0.7;
-  display: inline-block;
-  padding: .3em .3em .6em .3em;
-}
-
-
-}
-
-
-
-
-
-  .social-media-top {
-    position: absolute;
-    bottom: 0;
-    margin: 0 auto;
-    right: .5em;
-  }
-
-
-
-
-

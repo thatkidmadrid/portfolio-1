@@ -18,9 +18,14 @@
     display: block;
   }
 
-    .scroll-down {
+  .scroll-down {
 /*    left: 42%;*/
-      left: 48.5%;
+    left: 48.5%;
+  }
+
+  .social-media-bottom {
+    width: 16.27em;
+    margin: 0 calc((100% - 260.313px) / 2);
   }
 
 }
