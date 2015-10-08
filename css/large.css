@@ -14,6 +14,10 @@
     font-size: 3em;
   }
 
+  br {
+    display: block;
+  }
+
     .scroll-down {
 /*    left: 42%;*/
       left: 48.5%;

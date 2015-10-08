@@ -20,6 +20,10 @@
     display: none;
   }
 
+  br {
+    display: block;
+  }
+
   .item h3,
   .item p {
     display: none;
@@ -59,6 +63,10 @@
   h1 {
     margin: 10.25em 0em 0 8em;
     font-size: 3em;
+  }
+
+  br {
+    display: none;
   }
 
   .scroll-down {
