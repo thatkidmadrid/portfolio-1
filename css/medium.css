@@ -49,11 +49,60 @@
     color: black;
   }
 
+  .social-media-top {
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .email {
+    width: 3em;
+    height: 2em;
+    background-image: url("../images/email-white.svg");
+    background-repeat: no-repeat;
+    margin-left: .25em;
+  }
+
+  .email:hover {
+    cursor: pointer;
+  }
+
+  .linkedin {
+    width: 2.25em;
+    height: 2.25em;
+    background-image: url("../images/linkedin-white.svg");
+    background-repeat: no-repeat;
+  }
+
+  .twitter {
+    width: 2.25em;
+    height: 2em;
+    background-image: url("../images/twitter-white.svg");
+    background-repeat: no-repeat;
+  }
+
+  .instagram {
+    width: 2.25em;
+    height: 2em;
+    background-image: url("../images/instagram-white.svg");
+    background-repeat: no-repeat;
+  }
+
   .scroll-down {
     left: 46%;
     width: 4em;
     height: 4em;
   }
+
+  .about p {
+    padding: 0 4em;
+  }
+/*
+  .gem {
+    display: block;
+    height: 1.5em;
+  }*/
 
 }
 

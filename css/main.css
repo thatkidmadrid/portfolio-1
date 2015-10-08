@@ -123,55 +123,6 @@ br {
   display: none;
 }
 
-.social-media-top {
-  display: none;
-}
-
-.email {
-  width: 3em;
-  height: 2em;
-  background-image: url("../images/email-white.svg");
-  background-repeat: no-repeat;
-  margin-left: .25em;
-}
-
-.email:hover {
-  background-image: url("../images/email-teal.svg");
-}
-
-.linkedin {
-  width: 2.25em;
-  height: 2.25em;
-  background-image: url("../images/linkedin-white.svg");
-  background-repeat: no-repeat;
-}
-
-.linkedin:hover {
-  background-image: url("../images/linkedin-teal.svg");
-}
-
-.twitter {
-  width: 2.25em;
-  height: 2em;
-  background-image: url("../images/twitter-white.svg");
-  background-repeat: no-repeat;
-}
-
-.twitter:hover {
-  background-image: url("../images/twitter-teal.svg");
-}
-
-.instagram {
-  width: 2.25em;
-  height: 2em;
-  background-image: url("../images/instagram-white.svg");
-  background-repeat: no-repeat;
-}
-
-.instagram:hover {
-  background-image: url("../images/instagram-teal.svg");
-}
-
 .scroll-down {
   position: absolute;
   background-image: url("../images/down-arrow-01.svg");
@@ -259,8 +210,8 @@ h2 {
 
 .gem {
   display: block;
-  width: 1.5em;
-  margin: 0 auto;
+  width: 100%;
+  height: 1.5em;
 }
 
 .section-divider {
