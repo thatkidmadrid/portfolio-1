@@ -130,8 +130,8 @@ h1 {
   background-image: url("../images/down-arrow-01.svg");
   background-repeat: no-repeat;
   transition:all .2s ease-in-out;
-  bottom: 1em;
-  left: 42.5%;
+  bottom: 1.75em;
+  left: calc((100% - 3em) / 2);
   width: 3em;
   height: 3em;
   cursor: pointer;
@@ -328,6 +328,11 @@ hr {
   text-align: center;
   font-size: .7em;
   margin-top: 3em;
+}
+
+div[disabled] {
+  background-color: #13CFB0;
+  color: white;
 }
 
 /*----------MOBILE-LANDSCAPE----------*/
