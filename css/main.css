@@ -95,6 +95,8 @@ nav ul {
 
 nav li {
   display: inline-block;
+  overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 
 nav a {
