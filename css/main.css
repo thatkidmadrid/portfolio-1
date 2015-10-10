@@ -110,17 +110,19 @@ nav a:hover {
 
 /* **********BILLBOARD********** */
 
+.banner {
+  position: relative;
+}
+
 h1 {
-  display: inline-block;
-  margin: 8.5em .5em 0 5.75em;
+  position: absolute;
+  margin: 0;
+  left: 40%;
+  top: 50vh;
   color: #000;
   font-weight: 200;
   font-size: 1.75em;
   line-height: 1.25em;
-}
-
-br {
-  display: none;
 }
 
 .scroll-down {
@@ -286,7 +288,7 @@ hr {
 
 .social-media-bottom {
   display: block;
-  margin: 0 29px;
+  margin: 0 calc((100% - 260.313px) / 2);
 }
 
 .social-media-bottom a {
@@ -332,16 +334,8 @@ hr {
 @media only screen and (min-width: 30em) {
 
   h1 {
-    margin: 8em 0em 0 10em;
     font-size: 1.5em;
     line-height: 1.25em;
   }
 
-    br {
-    display: none;
-  }
-
-  .social-media-bottom {
-    margin: 0 150px;
-  }
 }
