@@ -119,11 +119,11 @@ nav a:hover {
 h1 {
   position: absolute;
   margin: 0;
-  left: 40%;
-  top: 50vh;
+  left: 46%;
+  top: 40vh;
   color: #000;
   font-weight: 200;
-  font-size: 1.75em;
+  font-size: 1.5em;
   line-height: 1.25em;
 }
 
@@ -332,17 +332,121 @@ hr {
   margin-top: 3em;
 }
 
-div[disabled] {
-  background-color: #13CFB0;
-  color: white;
-}
-
-/*----------MOBILE-LANDSCAPE----------*/
-@media only screen and (min-width: 30em) {
+/*----------IPHONE 6 PORTRAIT----------*/
+@media only screen and (min-width: 375px) {
 
   h1 {
-    font-size: 1.5em;
-    line-height: 1.25em;
+    left: 47%;
+    font-size: 1.7em;
   }
+
+}
+
+/*----------IPHONE 6+ PORTRAIT----------*/
+@media only screen and (min-width: 414px) {
+
+  h1 {
+    left: 50%;
+  }
+
+}
+
+/*----------IPHONE 4 LANDSCAPE----------*/
+@media only screen and (min-width: 480px) {
+
+  h1 {
+    left: 43%;
+    top: 46vh;
+  }
+
+}
+
+/*----------IPHONE 5 LANDSCAPE----------*/
+@media only screen and (min-width: 568px) {
+
+  h1 {
+  font-size: 2em;
+  }
+
+}
+
+/*----------BLACKBERRY PLAYBOOK PORTRAIT----------*/
+@media only screen and (min-width: 600px) {
+
+  h1 {
+    left: 50%;
+    top: 40vh;
+  }
+
+}
+
+/*----------IPHONE 6 LANDSCAPE----------*/
+@media only screen and (min-width: 667px) {
+
+  h1 {
+    left: 43%;
+    top: 46vh;
+    font-size: 2.25em;
+  }
+
+}
+
+/*----------IPHONE 6+ LANDSCAPE----------*/
+@media only screen and (min-width: 736px) {
+
+  h1 {
+
+  }
+
+}
+
+/*----------IPAD PORTRAIT----------*/
+@media only screen and (min-width: 768px) {
+
+  h1 {
+    top: 40vh;
+    font-size: 3em;
+  }
+
+}
+
+/*----------IPAD LANDSCAPE----------*/
+@media only screen and (min-width: 1024px) {
+
+  h1 {
+    left: 70%;
+    top: 45vh;
+    font-size: 2.5em;
+    color: yellow;
+  }
+
+      header {
+    background-image: url("../images/charlie.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+  }
+
+    .scroll-down {
+/*    left: 42%;*/
+    left: 48.5%;
+  }
+
+}
+
+/*----------DESKTOP----------*/
+@media only screen and (min-width: 1160px) {
+
+  h1 {
+    left: 66%;
+    top: 45vh;
+    font-size: 3em;
+    color: red;
+  }
+
+
+
+
 
 }
