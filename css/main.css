@@ -224,7 +224,7 @@ h2 {
   height: 1em;
 }
 
-/* **********PORTFOLIO********** */
+/* **********DESKTOP PORTFOLIO********** */
 
 hr {
   height: 1px;
@@ -235,11 +235,11 @@ hr {
   margin: 2em 0;
 }
 
-.portfolio {
+.td-portfolio {
   margin: 1em;
 }
 
-.portfolio h2 {
+.td-portfolio h2 {
   padding-left: .25em;
 }
 
@@ -408,6 +408,126 @@ hr {
     font-size: 3em;
   }
 
+    .bio {
+    font-size: 1.25em;
+  }
+
+  hr {
+    display: none;
+  }
+
+  .about hr,
+  .contact hr {
+    display: block;
+  }
+
+  .item h3,
+  .item p {
+    display: none;
+  }
+
+  .nav-links {
+  width: 50%;
+  text-align: right;
+  left: 50%;
+  font-size: 1.25em;
+  padding-top: .37em;
+}
+
+  .nav-links li:last-child {
+    margin-right: .25em;
+  }
+
+  nav a {
+    color: black;
+  }
+
+  .about p {
+    padding: 0 4em;
+  }
+
+
+
+
+
+
+
+
+
+
+
+.opened-description {
+  position:fixed;
+  top: -100vh;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: none;
+  height: 100vh;
+}
+
+.opened-description:target {
+  top: 0;
+}
+
+
+
+.exit {
+  text-decoration: none;
+  width: 100vw;
+  height: 2.3em;
+  position: relative;
+  top: -3em;
+  transition: all 200ms linear;
+  background-color: #13CFB0;
+  opacity: 1;
+  border-bottom: .5px solid black;
+
+}
+
+.exit p {
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.image {
+  position:relative;
+  left: -75%;
+  overflow-y: auto;
+  background-color: white;
+  border-right: 1.5px solid #13CFB0;
+  height: 100%;
+  transition: all 200ms linear;
+}
+
+.image img {
+padding: 2em;
+}
+
+.text {
+  background-color: white;
+  position:relative;
+  right: -50%;
+  transition: all 200ms linear;
+  padding: 8em 2em 0;
+  height: 100vh;
+}
+
+.opened-description:target .image {
+  left: 0;
+}
+
+.opened-description:target .text {
+  right: 0;
+}
+
+.opened-description:target .exit {
+  top: 0;
+}
+
 }
 
 /*----------IPAD LANDSCAPE----------*/
@@ -417,7 +537,6 @@ hr {
     left: 70%;
     top: 45vh;
     font-size: 2.5em;
-    color: yellow;
   }
 
       header {
@@ -428,11 +547,11 @@ hr {
     height: 100vh;
   }
 
-    .scroll-down {
-/*    left: 42%;*/
-    left: 48.5%;
+  .scroll-down {
+    left: 47%;
+    width: 4em;
+    height: 4em;
   }
-
 }
 
 /*----------DESKTOP----------*/
@@ -442,11 +561,6 @@ hr {
     left: 66%;
     top: 45vh;
     font-size: 3em;
-    color: red;
   }
-
-
-
-
 
 }
