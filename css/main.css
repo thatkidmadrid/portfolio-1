@@ -218,13 +218,7 @@ h2 {
   height: 1.5em;
 }
 
-.section-divider {
-  background-color: #13CFB0;
-  width: 100%;
-  height: 1em;
-}
-
-/* **********DESKTOP PORTFOLIO********** */
+/* MOBILE PORTFOLIO */
 
 hr {
   height: 1px;
@@ -235,11 +229,20 @@ hr {
   margin: 2em 0;
 }
 
-.td-portfolio {
+.image,
+.text {
+  display: none;
+}
+
+.tablet-portfolio {
+  display: none;
+}
+
+.mobile-portfolio {
   margin: 1em;
 }
 
-.td-portfolio h2 {
+.mobile-portfolio h2 {
   padding-left: .25em;
 }
 
@@ -268,6 +271,71 @@ hr {
   margin: 0;
   color: #191919;
 }
+
+
+
+
+
+
+.mobile-portfolio h2 {
+  padding-left: .25em;
+}
+
+.mobile-portfolio-opened {
+  position:fixed;
+  top: -100vh;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100vh;
+}
+
+.mobile-portfolio-opened:target {
+  top: 0;
+}
+
+.exit {
+  text-decoration: none;
+  width: 100vw;
+  height: 2.3em;
+  position: relative;
+  top: -3em;
+  transition: all 200ms linear;
+  background-color: #13CFB0;
+  opacity: 1;
+  border-bottom: .5px solid black;
+}
+
+.exit p {
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.text {
+  background-color: white;
+  position:relative;
+  overflow-y: auto;
+  top: -100%;
+  transition: all 200ms linear;
+  padding: 8em 2em 0;
+  height: 100vh;
+}
+
+.mobile-portfolio-opened:target .text {
+  top: 0;
+}
+
+.mobile-portfolio-opened:target .exit {
+  top: 0;
+}
+
+
+
+
+
 
 /*----------CONTACT----------*/
 
@@ -446,31 +514,33 @@ hr {
     padding: 0 4em;
   }
 
+/* TABLET/DESKTOP PORTFOLIO */
 
+.mobile-portfolio {
+  display: none;
+}
 
+.tablet-portfolio {
+  display: block;
+  margin: 1em;
+}
 
+.tablet-portfolio h2 {
+  padding-left: .25em;
+}
 
-
-
-
-
-
-
-.opened-description {
+.tablet-portfolio-opened {
   position:fixed;
   top: -100vh;
   left: 0;
   bottom: 0;
   right: 0;
-  display: none;
   height: 100vh;
 }
 
-.opened-description:target {
+.tablet-portfolio-opened:target {
   top: 0;
 }
-
-
 
 .exit {
   text-decoration: none;
@@ -482,7 +552,6 @@ hr {
   background-color: #13CFB0;
   opacity: 1;
   border-bottom: .5px solid black;
-
 }
 
 .exit p {
@@ -516,15 +585,15 @@ padding: 2em;
   height: 100vh;
 }
 
-.opened-description:target .image {
+.tablet-portfolio-opened:target .image {
   left: 0;
 }
 
-.opened-description:target .text {
+.tablet-portfolio-opened:target .text {
   right: 0;
 }
 
-.opened-description:target .exit {
+.tablet-portfolio-opened:target .exit {
   top: 0;
 }
 
