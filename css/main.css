@@ -26,7 +26,6 @@ img {
 }
 
 body {
-/*  font-family: "Libre Baskerville", serif;*/
   font-family: 'Yantramanav', sans-serif;
   background-color: #fff;
   color: #000;
@@ -183,11 +182,9 @@ h2 {
   height: 2.5em;
   width: 100%;
   margin-top: -2.5em;
-/*  background-color: red;*/
 }
 
 .about {
-/*  background-color: white;*/
   background-color: white;
   display: inline-block;
   font-size: 1em;
@@ -223,7 +220,7 @@ h2 {
   height: 1.5em;
 }
 
-/* MOBILE PORTFOLIO */
+/* **********MOBILE PORTFOLIO********** */
 
 hr {
   height: 1px;
@@ -271,11 +268,6 @@ hr {
   margin: 0;
   color: #191919;
 }
-
-
-
-
-
 
 .mobile-portfolio h2 {
   padding-left: .25em;
@@ -340,22 +332,7 @@ hr {
   top: 0;
 }
 
-
-
-
-
-
-/*----------CONTACT----------*/
-
-.contact {
-/*  background-color: #13CFB0;*/
-/*  height: 10em;*/
-}
-
-/*.contact h2 {
-  margin: 2em 0 .5em;
-  padding-left: 1em;
-}*/
+/* **********CONTACT********** */
 
 .contact h3 {
   font-weight: 500;
@@ -408,7 +385,7 @@ hr {
   margin-top: 3em;
 }
 
-/*----------IPHONE 6 PORTRAIT----------*/
+/* **********IPHONE 6 PORTRAIT********** */
 @media only screen and (min-width: 375px) {
 
   h1 {
@@ -418,7 +395,7 @@ hr {
 
 }
 
-/*----------IPHONE 6+ PORTRAIT----------*/
+/* **********IPHONE 6+ PORTRAIT********** */
 @media only screen and (min-width: 414px) {
 
   h1 {
@@ -427,7 +404,7 @@ hr {
 
 }
 
-/*----------IPHONE 4 LANDSCAPE----------*/
+/* **********IPHONE 4 LANDSCAPE********** */
 @media only screen and (min-width: 480px) {
 
   h1 {
@@ -437,16 +414,16 @@ hr {
 
 }
 
-/*----------IPHONE 5 LANDSCAPE----------*/
+/* **********IPHONE 5 LANDSCAPE********** */
 @media only screen and (min-width: 568px) {
 
   h1 {
-  font-size: 2em;
+    font-size: 2em;
   }
 
 }
 
-/*----------BLACKBERRY PLAYBOOK PORTRAIT----------*/
+/* **********BLACKBERRY PLAYBOOK PORTRAIT********** */
 @media only screen and (min-width: 600px) {
 
   h1 {
@@ -456,7 +433,7 @@ hr {
 
 }
 
-/*----------IPHONE 6 LANDSCAPE----------*/
+/* **********IPHONE 6 LANDSCAPE********** */
 @media only screen and (min-width: 667px) {
 
   h1 {
@@ -467,16 +444,12 @@ hr {
 
 }
 
-/*----------IPHONE 6+ LANDSCAPE----------*/
+/* **********IPHONE 6+ LANDSCAPE********** */
 @media only screen and (min-width: 736px) {
-
-  h1 {
-
-  }
 
 }
 
-/*----------IPAD PORTRAIT----------*/
+/* **********IPAD PORTRAIT********** */
 @media only screen and (min-width: 768px) {
 
   h1 {
@@ -515,12 +488,12 @@ hr {
   }
 
   .nav-links {
-  width: 50%;
-  text-align: right;
-  left: 50%;
-  font-size: 1.25em;
-  padding-top: .37em;
-}
+    width: 50%;
+    text-align: right;
+    left: 50%;
+    font-size: 1.25em;
+    padding-top: .37em;
+  }
 
   .nav-links li:last-child {
     margin-right: .25em;
@@ -530,100 +503,100 @@ hr {
     color: black;
   }
 
-/* TABLET/DESKTOP PORTFOLIO */
+/* **********TABLET/DESKTOP PORTFOLIO********** */
 
-.mobile-portfolio {
-  display: none;
+  .mobile-portfolio {
+    display: none;
+  }
+
+  .tablet-portfolio {
+    display: block;
+    margin: 1em;
+  }
+
+  .tablet-portfolio h2 {
+    padding-left: .25em;
+  }
+
+  .tablet-portfolio-opened {
+    position:fixed;
+    top: -100vh;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100vh;
+  }
+
+  .tablet-portfolio-opened:target {
+    top: 0;
+  }
+
+  .tablet-portfolio .exit {
+    text-decoration: none;
+    width: 100vw;
+    height: 2.3em;
+    position: relative;
+    top: -3em;
+    transition: all 200ms linear;
+    background-color: #13CFB0;
+    opacity: 1;
+    border-bottom: .5px solid black;
+  }
+
+  .tablet-portfolio .exit p {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .tablet-portfolio .image {
+    position:relative;
+    left: -75%;
+    overflow-y: auto;
+    background-color: white;
+    border-right: 4px solid #13CFB0;
+    height: 100%;
+    transition: all 200ms linear;
+  }
+
+  .tablet-portfolio .image img {
+  padding: ;
+  }
+
+  .text {
+    top: 0;
+  }
+
+  .text h3 {
+    display: block;
+  }
+
+  .tablet-portfolio .text {
+    background-color: white;
+    position:relative;
+    right: -50%;
+    transition: all 200ms linear;
+    padding: 8em 2em 0;
+    height: 100vh;
+  }
+
+  .tablet-portfolio-opened:target .image {
+    left: 0;
+  }
+
+  .tablet-portfolio-opened:target .text {
+    right: 0;
+  }
+
+  .tablet-portfolio-opened:target .exit {
+    top: 0;
+  }
+
 }
 
-.tablet-portfolio {
-  display: block;
-  margin: 1em;
-}
-
-.tablet-portfolio h2 {
-  padding-left: .25em;
-}
-
-.tablet-portfolio-opened {
-  position:fixed;
-  top: -100vh;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  height: 100vh;
-}
-
-.tablet-portfolio-opened:target {
-  top: 0;
-}
-
-.tablet-portfolio .exit {
-  text-decoration: none;
-  width: 100vw;
-  height: 2.3em;
-  position: relative;
-  top: -3em;
-  transition: all 200ms linear;
-  background-color: #13CFB0;
-  opacity: 1;
-  border-bottom: .5px solid black;
-}
-
-.tablet-portfolio .exit p {
-  color: white;
-  font-size: 2em;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-}
-
-.tablet-portfolio .image {
-  position:relative;
-  left: -75%;
-  overflow-y: auto;
-  background-color: white;
-  border-right: 4px solid #13CFB0;
-  height: 100%;
-  transition: all 200ms linear;
-}
-
-.tablet-portfolio .image img {
-padding: ;
-}
-
-.text {
-  top: 0;
-}
-
-.text h3 {
-  display: block;
-}
-
-.tablet-portfolio .text {
-  background-color: white;
-  position:relative;
-  right: -50%;
-  transition: all 200ms linear;
-  padding: 8em 2em 0;
-  height: 100vh;
-}
-
-.tablet-portfolio-opened:target .image {
-  left: 0;
-}
-
-.tablet-portfolio-opened:target .text {
-  right: 0;
-}
-
-.tablet-portfolio-opened:target .exit {
-  top: 0;
-}
-
-}
-
-/*----------IPAD LANDSCAPE----------*/
+/* **********IPAD LANDSCAPE********** */
 @media only screen and (min-width: 1024px) {
 
   h1 {
@@ -632,7 +605,7 @@ padding: ;
     font-size: 2.5em;
   }
 
-      header {
+  header {
     background-image: url("../images/charlie.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -647,7 +620,7 @@ padding: ;
   }
 }
 
-/*----------DESKTOP----------*/
+/* **********DESKTOP********** */
 @media only screen and (min-width: 960px) {
 
   h1 {
@@ -656,7 +629,7 @@ padding: ;
     font-size: 3em;
   }
 
-    .about {
+  .about {
     width: 33.3%;
     margin: 0 calc((100% - 33.3%) / 2);
   }
