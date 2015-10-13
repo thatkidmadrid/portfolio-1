@@ -321,7 +321,7 @@ hr {
   top: -100%;
   transition: all 200ms linear;
   padding: 8em 2em 0;
-  height: 100vh;
+  height: 100%;
 }
 
 .mobile-portfolio-opened:target .text {
