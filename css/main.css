@@ -594,6 +594,10 @@ padding: ;
   top: 0;
 }
 
+.text h3 {
+  display: block;
+}
+
 .tablet-portfolio .text {
   background-color: white;
   position:relative;
