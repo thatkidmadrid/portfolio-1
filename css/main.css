@@ -177,7 +177,9 @@ h2 {
 
 /* **********ABOUT********** */
 
-.buffer {
+.buffer-a,
+.buffer-b,
+.buffer-c {
   height: 2.5em;
   width: 100%;
   margin-top: -2.5em;
