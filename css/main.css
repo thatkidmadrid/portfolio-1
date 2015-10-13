@@ -199,6 +199,10 @@ h2 {
   padding: 0 1.25em;
 }
 
+.about p:last-child {
+  text-align: center;
+}
+
 .about a {
   text-decoration: none;
 }
