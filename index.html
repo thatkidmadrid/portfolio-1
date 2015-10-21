@@ -2,50 +2,50 @@
 layout: default
 ---
 
-<!--     <h1>I&nbsp;live&nbsp;my&nbsp;life <br>like&nbsp;a&nbsp;video&nbsp;game.</h1>
+    <h1>I&nbsp;live&nbsp;my&nbsp;life <br>like&nbsp;a&nbsp;video&nbsp;game.</h1>
 
     <div class="social-media-top">
-      <a href="mailto:hey@charliequinn.ca?Subject=Hello!" target="_top"><div class="email"></div></a>
-      <a href="https://ca.linkedin.com/in/charliequinngd"><div class="linkedin"></div></a>
-      <a href="https://twitter.com/charliequinn_"><div class="twitter"></div></a>
-      <a href="https://instagram.com/notenoughquinn/"><div class="instagram"></div></a>
+      <a href="{{site.baseurl}}/mailto:hey@charliequinn.ca?Subject=Hello!" target="_top"><div class="email"></div></a>
+      <a href="{{site.baseurl}}/https://ca.linkedin.com/in/charliequinngd"><div class="linkedin"></div></a>
+      <a href="{{site.baseurl}}/https://twitter.com/charliequinn_"><div class="twitter"></div></a>
+      <a href="{{site.baseurl}}/https://instagram.com/notenoughquinn/"><div class="instagram"></div></a>
     </div>
 
-    <div class="scroll-down-wrapper"><a class="scroll-down" href="#buffer-a"></a></div> -->
-<!--   </header> -->
+    <div class="scroll-down-wrapper"><a class="scroll-down" href="{{site.baseurl}}/#about-charlie"></a></div>
+
 
 <!-- **********ABOUT********** -->
 
   <section class="about" id="about">
-    <div class="buffer-a" id="buffer-a"></div>
+    <div class="buffer-a" id="about-charlie"></div>
     <h2>Designer // Photographer</h2>
     <p>I believe that everything I design, love, and work for, will unlock an awesome achievement.</p>
     <p>While constantly working towards the next level, I’ve made a habit of going back to upgrade my skills and search for hidden treasures.</p>
-    <p>I like finding new hats to wear more than anything (seriously, you should see <a href="http://charlie-quinn.github.io/portfolio/hat-collection.html">my collection!</a>). Sometimes I’m a craftsman, or an accountant, or even a pastry chef.</p>
+    <p>I like finding new hats to wear more than anything (seriously, you should see <a href="{{site.baseurl}}/http://charlie-quinn.github.io/portfolio/hat-collection.html">my collection!</a>). Sometimes I’m a craftsman, or an accountant, or even a pastry chef.</p>
     <img class="gem" src="images/gem.svg" alt="gem icon">
     <p>The design process can get a little crazy. <br>I love what I do for a living.</p>
   </section>
 
 <!-- **********MOBILE-PORTFOLIO********** -->
-
-  <section class="mobile-portfolio" id="mobile-work">
-    <div class="buffer-p" id="buffer-p"></div>
+<section class="portfolio" id="work">
+  <div class="mobile-portfolio" id="mobile-work">
+    <div class="buffer-b"></div>
     <div class="grid">
       <div class="unit-s-1 unit-l-1-3 item mobile-piece-1">
-        <a href="#mobile-piece-1"><img src="images/gq-magazine.jpg" alt="portfolio-piece alt description"></a>
+        <a href="{{site.baseurl}}/#mobile-piece-1"><img src="images/gq-magazine.jpg" alt="portfolio-piece alt description"></a>
       </div>
       <hr>
       <div class="unit-s-1 unit-l-1-3 item mobile-piece-2">
-        <a href="#mobile-piece-2"><img src="http://placehold.it/350x175" alt="portfolio-piece alt description"></a>
+        <a href="{{site.baseurl}}/#mobile-piece-2"><img src="http://placehold.it/350x175" alt="portfolio-piece alt description"></a>
       </div>
       <hr>
       <div class="unit-s-1 unit-l-1-3 item mobile-piece-3">
-        <a href="#mobile-piece-3"><img src="http://placehold.it/350x175" alt="portfolio-piece alt description"></a>
+        <a href="{{site.baseurl}}/#mobile-piece-3"><img src="http://placehold.it/350x175" alt="portfolio-piece alt description"></a>
       </div>
     </div>
 
     <div class="grid mobile-portfolio-opened" id="mobile-piece-1">
-      <a href="#mobile-work" class="unit unit-m-1 exit">
+      <a href="{{site.baseurl}}/#mobile-work" class="unit unit-m-1 exit">
         <p>X</p>
       </a>
       <div class="unit text">
@@ -56,28 +56,28 @@ layout: default
         <img src="images/pastels.jpg" alt="portfolio-piece description">
       </div>
     </div>
-  </section>
+  </div>
 
 <!-- **********TABLET/DESKTOP-PORTFOLIO********** -->
 
-  <section class="tablet-portfolio" id="tablet-work">
+  <div class="tablet-portfolio" id="tablet-work">
     <div class="buffer-c" id="buffer-c"></div>
     <div class="grid">
       <div class="unit-s-1 unit-m-1-2 unit-l-1-3 item portfolio-piece-1">
-        <a href="#piece-1"><img src="images/gq-magazine.jpg" alt="portfolio-piece alt description"></a>
+        <a href="{{site.baseurl}}/#piece-1"><img src="images/gq-magazine.jpg" alt="portfolio-piece alt description"></a>
       </div>
       <hr>
       <div class="unit-s-1 unit-m-1-2 unit-l-1-3 item portfolio-piece-2">
-        <a href="#piece-2"><img src="http://placehold.it/350x175" alt="portfolio-piece alt description"></a>
+        <a href="{{site.baseurl}}/#piece-2"><img src="http://placehold.it/350x175" alt="portfolio-piece alt description"></a>
       </div>
       <hr>
       <div class="unit-s-1 unit-m-1-2 unit-l-1-3 item portfolio-piece-3">
-        <a href="#piece-3"><img src="http://placehold.it/350x175" alt="portfolio-piece alt description"></a>
+        <a href="{{site.baseurl}}/#piece-3"><img src="http://placehold.it/350x175" alt="portfolio-piece alt description"></a>
       </div>
     </div>
 
     <div class="grid tablet-portfolio-opened" id="piece-1">
-      <a href="#tablet-work" class="unit unit-m-1 exit">
+      <a href="{{site.baseurl}}/#tablet-work" class="unit unit-m-1 exit">
         <p>X</p>
       </a>
       <div class="unit unit-m-2-3 image">
@@ -90,4 +90,5 @@ layout: default
         <p class="unit">Some Magazine covers.</p>
       </div>
     </div>
-  </section>
+  </div>
+</section>

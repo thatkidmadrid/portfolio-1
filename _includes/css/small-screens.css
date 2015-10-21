@@ -1,0 +1,175 @@
+/* **********MOBILE PORTFOLIO********** */
+
+hr {
+  height: 1px;
+  width: 100%;
+  background-color: #e2e2e2;
+  border: 0;
+  padding: 0;
+  margin: 2em 0;
+}
+
+.tablet-portfolio {
+  display: none;
+}
+
+.mobile-portfolio {
+  margin: 1em;
+}
+
+.mobile-portfolio h2 {
+  padding-left: .25em;
+}
+
+.item {
+  padding: .5em;
+  margin: 0;
+  transition: all .1s ease;
+  transition-property: transform;
+}
+
+.item img {
+  display: block;
+}
+
+.item img:hover,
+.item img:focus,
+.item img:active {
+  cursor: pointer;
+}
+
+.item h3 {
+  margin: 1em 0 0.25em;
+}
+
+.item p {
+  margin: 0;
+  color: #191919;
+}
+
+.mobile-portfolio h2 {
+  padding-left: .25em;
+}
+
+.mobile-portfolio-opened {
+  position:fixed;
+  top: -100vh;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100vh;
+}
+
+.mobile-portfolio-opened:target {
+  top: 0;
+}
+
+.exit {
+  text-decoration: none;
+  width: 100vw;
+  height: 2.3em;
+  position: relative;
+  top: -3em;
+  transition: all 200ms linear;
+  background-color: #13CFB0;
+  opacity: 1;
+  border-bottom: .5px solid black;
+}
+
+.exit p {
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.text {
+  background-color: white;
+  position:relative;
+  overflow-y: auto;
+  top: -100%;
+  transition: all 200ms linear;
+  padding: 2em 2em 0;
+  height: 100%;
+}
+
+.text h3 {
+  margin-bottom: 0;
+}
+
+.text img {
+  margin-bottom: .5em;
+}
+
+.mobile-portfolio-opened:target .text {
+  top: 0;
+}
+
+.mobile-portfolio-opened:target .exit {
+  top: 0;
+}
+
+/* **********IPHONE 6 PORTRAIT********** */
+@media only screen and (min-width: 375px) {
+
+  h1 {
+    left: 47%;
+    font-size: 1.7em;
+  }
+
+}
+
+/* **********IPHONE 6+ PORTRAIT********** */
+@media only screen and (min-width: 414px) {
+
+  h1 {
+    left: 50%;
+  }
+
+}
+
+/* **********IPHONE 4 LANDSCAPE********** */
+@media only screen and (min-width: 480px) {
+
+  h1 {
+    left: 43%;
+    top: 46vh;
+  }
+
+}
+
+/* **********IPHONE 5 LANDSCAPE********** */
+@media only screen and (min-width: 568px) {
+
+  h1 {
+    font-size: 2em;
+  }
+
+}
+
+/* **********BLACKBERRY PLAYBOOK PORTRAIT********** */
+@media only screen and (min-width: 600px) {
+
+  h1 {
+    left: 50%;
+    top: 40vh;
+  }
+
+}
+
+/* **********IPHONE 6 LANDSCAPE********** */
+@media only screen and (min-width: 667px) {
+
+  h1 {
+    left: 43%;
+    top: 46vh;
+    font-size: 2.25em;
+  }
+
+}
+
+/* **********IPHONE 6+ LANDSCAPE********** */
+@media only screen and (min-width: 736px) {
+
+}
