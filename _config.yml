@@ -1,1 +1,2 @@
 baseurl: /portfolio
+exclude: ['_site']
